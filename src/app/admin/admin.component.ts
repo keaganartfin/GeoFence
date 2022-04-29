@@ -16,7 +16,7 @@ export class AdminComponent implements OnInit {
   username = 'Admin'
   showAlert = false;
   showLocationUpdate = false;
-  zoom = 14;
+  zoom = 13;
   center = {
     lat: 41.70880,
     lng: -87.97925,

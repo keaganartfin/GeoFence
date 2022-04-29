@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   pingServer(location) {
     this.http
       .post('http://localhost:4000/ping', location)
-      .subscribe((res) => {});
+      .subscribe((res) => {console.log(res)});
   }
 
   ngOnInit() {

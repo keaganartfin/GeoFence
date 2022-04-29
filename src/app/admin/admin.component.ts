@@ -13,23 +13,22 @@ export class AdminComponent implements OnInit {
   constructor(private loader: MapsAPILoader, private pusher: PusherService) {}
 
   theRanchPolygon;
-  username = 'J. Admin'
+  username = 'Admin'
   showAlert = false;
   showLocationUpdate = false;
-  zoom = 16;
+  zoom = 14;
   center = {
-    lat: 6.435838,
-    lng: 3.451384,
+    lat: 41.70880,
+    lng: -87.97925,
   };
   polygon = [
-    { lat: 6.436914, lng: 3.451432 },
-    { lat: 6.436019, lng: 3.450917 },
-    { lat: 6.436584, lng: 3.450917 },
-    { lat: 6.435006, lng: 3.450928 },
-    { lat: 6.434953, lng: 3.451808 },
-    { lat: 6.435251, lng: 3.451765 },
-    { lat: 6.435262, lng: 3.451969 },
-    { lat: 6.435518, lng: 3.451958 },
+    { lat: 41.71868, lng: -87.99878 },
+    { lat: 41.71996, lng: -87.95198 },
+    { lat: 41.70836, lng: -87.95172 },
+    { lat: 41.69765, lng: -87.96692 },
+    { lat: 41.69508, lng: -88.00127 },
+    { lat: 41.71714, lng: -88.00101 },
+
   ];
 
   ngOnInit() {
